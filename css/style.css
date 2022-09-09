@@ -1,0 +1,42 @@
+h2 {
+	color: rgb(4, 15, 77);
+}
+.text-main {
+	color: brown;
+}
+#content-list {
+	color: blueviolet;
+}
+* {
+	font-size: large;
+}
+div.text {
+	color: aquamarine;
+}
+.text-small,
+.text-big {
+	color: red;
+}
+.text-small.text-big{
+color: darkmagenta;
+}
+
+/* каскадність */
+.text-blue li {
+	color: blue;
+}
+.text-blue ~ p {
+color: fuchsia;
+}
+.interesting-list .yellow {
+	color: yellow;
+}
+.rose-span > span {
+	color: rosybrown;
+}
+.text + div {
+	color: lawngreen;
+}
+.text-blue * {
+	color: darkblue;
+}
